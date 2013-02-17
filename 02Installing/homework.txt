@@ -3,12 +3,23 @@ Homework for Chapter 2 of Learning MySQL (2006 edition), from p. 94:
 Exercises:
 1) What is command completion?
 
+When trying to enter in a name of a command file or directory the tab key allows you to cycle through names that could match.  for example $ Cd /t
+
 2) What are the relative advantages of installing MySQL using the package,
  directory archive (tarball or "no-install", or compiled methods?
 
+- Package allows you to follow a step-by-step installation wizard.
+- Intergrated packages  include other tools you that help you adjust other configuration files, work with MySQL or conveniently start and stop services.
+
 3) How do you verify the integrity of downloaded packages?
 
+- make sure your computers OS is compatible with the the package.
+- ensure the package include the following softwares; MySQl, Apache, PHP, Perl
+- use SDM5 verification
+
 4) How do you add the MySQL bin directory to the operating system path?
+-. You add the MySQL bin to the directory to the operating system path by editing the ~/.bashrc shell configuration file with the text editor. add the command line export path=$path:/usr/local/mysql/bin: to the bottom of the file. -use the source command to save the changes. 
+
 
 Additional Exercises (not in the book): 
 1) Document how you installed MySQL and any issues you came across with installation. 
